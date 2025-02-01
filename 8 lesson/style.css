@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'CeraProBold';
+    src: url('./CeraPro-Black.woff') format('woff');}
+@font-face {
+    font-family: 'CeraProLight';
+    src: url('./CeraPro-Light.woff') format('woff');
+}
+.box{
+    display: flex;
+    flex-direction: column;
+}
+.container-first{
+    display: flex;
+    max-width: 1300px;
+    max-height: 302px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.container-plants-left,
+.container-plants-right{
+    background-color: #FBFBFB;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.container-text-left,
+.container-text-right{
+    font-family: 'CeraProLight';
+    line-height: 1.7;
+    font-weight: lighter;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 280px;
+}
+
+
+.button{
+    display: flex;
+    font-family: 'CeraProLight';
+    background-color: #46A358;
+    color:white;
+    margin-top: 25px;
+    font-size: 14px;
+    width: 140px;
+    height:40px ;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+}
+.container-center-text{
+    font-family: 'CeraProLight';
+    margin-top: 138px;
+    line-height: 1.7;
+    margin-bottom: 35px;
+    text-align: center;
+
+}
+.container-second{
+    font-family: 'CeraProLight';
+    display: flex;
+    max-width: 1500px;
+    max-height: 302px;
+    margin: 0 auto;
+    justify-content: space-between;
+    column-gap: 15px;
+}
+
+.container-plants-first,
+.container-plants-second,
+.container-plants-third,
+.container-plants-fourth{
+    background-color: #FBFBFB;
+    display: flex;
+    max-width: 362px;
+    max-height: 268px;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.container-plants-first-text,
+.container-plants-second-text,
+.container-plants-third-text,
+.container-plants-fourth-text{
+    padding-left: 10px;
+    line-height: 1.7;
+    max-width: 167px;
+    max-height: 280px;
+}
+
+.img-plants
+{
+    width: 268px;
+    height: 195px;
+}
+.image-plants{
+    width: 292px;
+    height: 287px;
+}
