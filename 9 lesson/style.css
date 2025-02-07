@@ -28,6 +28,7 @@ body{
     display: flex;
     justify-content: space-between;
     column-gap: 30px;
+    
   }
   .navigation-plants-li-1,
   .navigation-plants-li-2,
@@ -43,8 +44,7 @@ body{
   }
 
   .navigation-plants-li-1{
-    color:#46A358;
-    border-bottom: 2px solid #46A358;
+   
     max-width: 66px;
     padding: 3px;
   }
@@ -70,7 +70,7 @@ body{
   }
 
   .box-plants-2 {
-    border-top:1px solid #46A358;
+   
     position: relative;
   }
   .price{
@@ -89,3 +89,12 @@ top: 1px;
     top: 235px;
     left: 70px
   }
+  .nav-button:hover{
+   border-bottom: 2px solid #46A358;
+   background-color: white;
+  }
+  .box-plants-1:hover,
+  .box-plants-2:hover,
+   .box-plants-3:hover{
+border-top: 1px solid #46A358;
+   }
