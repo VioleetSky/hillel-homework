@@ -1,0 +1,91 @@
+
+@font-face {
+    font-family: 'CeraPro';
+    src: 
+         url('./CeraPro-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'CeraPro';
+}
+.container-plants{
+    margin: 0 auto;
+    width: 840px;
+   
+}
+.navigation-plants{
+    margin-top:170px ;
+}
+.shop-plants{
+    margin-top: 30px;
+}
+.strikethrough {
+    text-decoration: line-through;
+    color: #CBCBCB;
+  }
+  .navigation-plants-list{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+  }
+  .navigation-plants-li-1,
+  .navigation-plants-li-2,
+  .navigation-plants-li-3{
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 86px;
+  }
+  .navigation-plants-li-4{
+    flex-grow: 3;
+    flex-basis: 0;
+    text-align: right;
+  }
+
+  .navigation-plants-li-1{
+    color:#46A358;
+    border-bottom: 2px solid #46A358;
+    max-width: 66px;
+    padding: 3px;
+  }
+  .img-plant{
+    margin-bottom: 15px;
+  }
+  .ul-shop-plants{
+    display: flex;
+    justify-content: space-between;
+  }
+  .box-plants-1,
+  .box-plants-2,
+   .box-plants-3{
+    background-color: #FBFBFB;
+    line-height: 16px;
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+  .box-plants-3{
+    position: relative;
+  }
+
+  .box-plants-2 {
+    border-top:1px solid #46A358;
+    position: relative;
+  }
+  .price{
+    display: flex;
+    column-gap: 16px;
+    color: #46A358;
+  }
+  .sale-img{
+position: absolute;
+top: 1px;
+  }
+  .item{
+    display: flex;
+    column-gap: 27px;
+    position: absolute;
+    top: 235px;
+    left: 70px
+  }
