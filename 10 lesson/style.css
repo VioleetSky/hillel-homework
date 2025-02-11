@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('./CeraPro-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'MyCustomFont';
+}
+
+
+.navigation{
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+    border-bottom: 0.3px solid #46a35969;
+    padding-bottom:10px ;
+    
+}
+.nav-greenshop{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 47px;
+   position: relative;
+
+}
+.button-login{
+    color: white;
+    background-color: #46A358;
+    display: flex;
+    padding: 7px 17px;
+    border-radius: 6px;
+    align-items: center;
+    column-gap: 4px;
+}
+.li-nav-greenshop-1:hover,
+.li-nav-greenshop-2:hover,
+.li-nav-greenshop-3:hover,
+.li-nav-greenshop-4:hover{
+border-bottom: 3px solid #46A358;
+font-weight: bolder;
+padding-bottom: 10px;
+}
+
+.nav-greenshop li a{
+    color: black;
+}
+
+.nav-greenshop-2{
+    display: none;
+    flex-direction: column;    
+    position: absolute;
+    top:55px;
+    right: 25px;
+    background-color: #EDF6EE;
+   
+}
+
+.li-nav-greenshop{
+    padding: 7px 22px 8px 14px;
+    font-weight: lighter;
+}
+.li-nav-greenshop-3:hover .nav-greenshop-2{
+    display: flex;
+    
+}
+.img-arow{
+    padding-left: 80px;
+}
+.text-main{
+    text-align: left;
+}
+.main-plant{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 12px;
+    align-items: center;
+    text-transform: uppercase;
+    
+}
+.welcome-p{
+    font-size: 14px;
+}
+.text-p{
+    line-height: 24px;
+}
+h3{
+    font-size: 70px;
+    margin: 5px 0px;
+    font-weight: bolder;
+}
+.button-shop{
+margin-top: 45px;
+font-size: 16px;
+background-color: #46A358;
+color: white;
+padding: 11px 27px 9px 27px;
+border-radius: 6px;
+text-transform: uppercase;
+}
+
