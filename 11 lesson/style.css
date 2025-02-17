@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('./CeraPro-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'MyCustomFont';
+}
+
+.section-info-garden{
+    width: 1200px;
+    height: 250px;
+    margin: 0 auto;
+    display: flex;
+justify-content: space-between;
+margin-top: 91px;
+align-items: center;
+background-color: #FBFBFB;
+}
+h3{
+    font-weight: bolder ;
+}
+.list-card{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 22px;
+}
+.card{
+    margin: 0px 20px 0px 20px;
+    line-height: 22px;
+}
+.box-garden{
+    height: 187px;
+    border-left: 1px solid #46A3581A;
+    border-right: 1px solid #46A3581A;
+    padding: 0px 20px 0px 20px;
+}
+.card img{
+    margin-bottom: 10px;
+}
+.label-email{
+    line-height: 22px;
+    margin: 25px;
+}
+.input-email{
+    width: 354px;
+    height: 40px;
+    margin: 20px 0px 20px 0px;
+}
+.join{
+    background-color: #46A358;
+    width: 85px;
+    height: 40px;
+    color: white;
+    border-radius: 0px 6px 6px 0px;
+    font-size: 14px;
+}
+.section-background-gradient{
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    height: 88px;
+margin: 0 auto;
+background: rgb(237,246,239);
+background: linear-gradient(90deg, rgba(237,246,239,1) 0%, rgba(82,195,104,1) 100%);
+}
+.contact-list{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 25px 0px 25px;
+    align-items: center;
+    column-gap: 150px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+}
+footer{
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 236px;
+    display: flex;
+    column-gap: 120px;
+    padding: 33px 150px 29px 25px;
+    background-color: #FBFBFB;
+    border-bottom: 1px solid #46A35833;
+}
+
+.social-media{
+    display: flex;
+    column-gap: 10px;
+}
+.media{
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+}
+footer ul{
+line-height: 28px;
+}
+.social-media-icon{
+    border-radius: 4px;
+    border: 1px solid #46A35833;
+    text-align: center;
+    padding-top: 7px;
+    height: 30px;
+    width: 30px;
+}
+.box-media{
+    padding-bottom: 33px;
+}
+.media h3{
+    margin-bottom: 15px;
+}
+.end{
+    text-align: center;
+    margin-top: 6px;
+    font-size: 14px;
+}
