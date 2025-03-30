@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+$background-color:#2B2B2B;
+$font-color:#FFFFFF;
+$background-color-button:#A259FF;
+$main-text-color: #858584;
+
+$font-family:"Work Sans";
+$font-family-main: "Space Mono";
+
+
+.header{
+    background-color: $background-color;
+    &__wrapper{
+            margin: 0 auto;
+            max-width: 1280px;
+            display: flex; 
+            padding: 20px 50px;
+            align-items: center;
+            justify-content: space-between;
+    }
+    &__nav-button,
+    &__button{
+        background-color: $background-color;
+        color: $font-color;
+       font-family: $font-family;
+       font-size: 16px;
+    }
+    &__nav-list{
+        display: flex;
+        column-gap: 10px;
+    }
+    &__nav{
+        display: flex;
+        align-items: center;
+    }
+    &__nav-button{
+        padding: 12px 20px;
+    }
+    &__button{
+        display: flex;
+        align-items: center;
+        column-gap: 12px;
+        background-color: $background-color-button;
+        padding: 19px 30px;
+        border-radius: 20px;
+    }
+    &__nav-button:hover,
+    &__button:hover
+    {
+    font-weight: bold;
+    } 
+}
+.block-img{
+    background-image: url('./Image/PlaceHolder.png');
+  width: 100%;
+  height: 100%;
+   background-size: contain;
+    background-repeat: no-repeat;
+}
+.main-market{
+    background-color: $background-color;
+    
+   &__wrapper{
+    color: $font-color;
+    font-family: $font-family;
+    padding: 40px 115px;
+    display: flex;
+    column-gap: 150px;
+    max-width: 1280px;
+    margin: 0 auto;
+   }
+    &__text{
+        max-width: 605px;
+        display: flex;
+        flex-direction: column;
+    }
+    &__text-title{
+        font-size: 51px;
+        margin-bottom: 10px;
+    }
+    &__text-date{
+        color: $main-text-color;
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+    &__text-author,
+    &__text-des,
+    &__text-details,
+    &__text-tags{
+   font-size: 22px;
+   color: $main-text-color;
+   font-weight: 700;
+   margin-bottom: 10px;
+   font-family: $font-family-main;
+    }
+    &__author-img
+    {
+        display: flex;
+        align-items: center;
+        column-gap: 3.5px;
+        margin-bottom: 30px;
+    }
+    &__text-main{
+        font-family: $font-family;
+        font-size: 22px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+    &__text-view{
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        font-size: 22px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    &__text-tags{
+        margin-top: 20px;
+    }
+    &__button{
+        padding: 12px 30px;
+        background-color: #3B3B3B;
+        font-size: 16px;
+        font-weight: 600;
+        color: $font-color;
+        text-transform: uppercase;
+        border-radius: 20px;
+    }
+    &__container-button{
+        display: flex;
+        column-gap: 20px;
+    }
+    &__timer{
+        background-color: #3B3B3B;
+        max-width: 295px;
+        max-height: 234px;
+        padding: 30px 30px;
+        border-radius: 20px;
+    }
+    &__clock{
+        display: flex;
+    }
+    &__watch{
+        display: flex;
+    }
+    &__clock-title{
+        font-family: $font-family-main;
+        color: $font-color;
+        font-weight: 400;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    &__clock-hours{
+        font-family: $font-family-main;
+        font-size: 38px;
+        font-weight: 700;
+        margin-bottom: 5px;
+        margin-right: 10px;
+    }
+    &__watch-text{
+    font-family: $font-family-main;
+    font-size: 12px;
+    margin-right: 45px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    }
+    &__timer-button{
+    padding: 19px 80.5px;
+    background-color: $background-color-button;
+    font-family: $font-family;
+    font-size: 16px;
+    font-weight: 600;
+    color: $font-color;
+    border-radius: 20px;
+    }
+}
+.article-artist{
+    background-color: $background-color;
+    padding: 60px 115px 80px 115px;
+    &__header{
+        margin: 0 auto;
+        display: flex;
+       column-gap: 380px ;
+      align-items: center;
+    }
+    &__title{
+        color: $font-color;
+        font-size: 38px;
+        font-weight: 600;
+        font-family: $font-family;
+    }
+    &__button{
+        border: 2px solid $background-color-button;
+        background-color: $background-color;
+        padding: 20px 50px;
+        color: $font-color;
+        display: flex;
+        column-gap: 12px;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: $font-family;
+        border-radius: 20px;
+    }
+
+    &__img{
+        max-width: 330px;
+        max-height: 295px;
+        border-radius: 20px 20px 0px 0px;
+    }
+    &__main{
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 30px;
+        row-gap: 60px;
+        padding-top: 60px;
+    }
+    &__wrapper-text{
+        background-color: #3B3B3B;
+        border-radius: 0px 0px 20px 20px;
+        padding: 20px 30px;
+    }
+    &__container{
+        max-width: 330px;
+        max-height: 496px;
+        color: $font-color;
+    }
+    &__author{
+        font-size: 22px;
+        font-weight: 600;
+        font-family: $font-family;
+        margin-bottom: 5px;
+    }
+    &__author-icon{
+        display: flex;
+        column-gap: 12px;
+        align-items: center;
+        font-size: 16px;
+        font-family: $font-family-main;
+        font-weight: 400;
+        margin-bottom: 27px;
+    }
+    &__text{
+        display: flex;
+        font-family: $font-family-main;
+        justify-content: space-between;
+    }
+    &__price
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    &__bid{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    &__price-text,
+    &__bid-text {
+        color: #858584;
+        font-size: 12px;
+        font-weight: 400;
+        margin-bottom: 8px;
+    }
+}
+.footer-marketplace{
+    background-color: #3B3B3B;
+    &__wrapper{
+      font-family: $font-family;
+        margin: 0 auto;
+        color: #CCCCCC;
+        padding: 40px 35.5px 49px 195px;
+        display: flex;
+        column-gap: 120px;
+        border-bottom: 1px solid #858584;
+    }
+    &__contact{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    &__wrapper-logo{
+        margin-bottom: 30px;
+    }
+    &__wrapper-text{
+        margin-bottom: 20px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    &__wrapper-join{
+        margin-bottom: 15px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    &__list{
+        display: flex;
+        column-gap: 10px;
+    }
+    &__explore-title{
+        font-family: $font-family-main;
+        color: $font-color;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    &__explore{
+    margin-top: 7px;
+    &-title{
+        margin-bottom: 30px;
+    }
+    &-item{
+        margin-bottom: 20px;
+    }
+    &-item a{
+    color: #CCCCCC;
+    }
+    }
+    &__join{
+        &-title{
+            color: $font-color;
+            font-size: 22px;
+            margin-top: 7px;
+            font-weight: 700;
+            margin-bottom: 25px;
+        }
+        &-text{
+            font-size: 16px;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+    }
+    &-end{
+        font-size: 16px;
+        font-weight: 400;
+        font-family: $font-family;
+       color:#CCCCCC;
+       padding: 20px 0px;
+       max-width: 1050px;
+       margin-left: 195px;
+    }
+}
+.subscribe__input{
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+.subscribe__button{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 19px 50px;
+    background-color: $background-color-button;
+    border-radius: 20px;
+    color: $font-color;
+    position: absolute;
+   left: 172px;
+  
+}
+form{
+    
+    position: relative;
+}
